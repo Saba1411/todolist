@@ -7,7 +7,7 @@ window.addEventListener('load', () => {
 
 	nameInput.value = username;
 
-	nameInput.addEventListener('change', (e) => {//value of name won't be chnge if we refresh the page
+	nameInput.addEventListener('change', (e) => { //value of name won't be chnge if we refresh the page
 		localStorage.setItem('username', e.target.value);
 	})
 
